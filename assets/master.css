@@ -1,0 +1,83 @@
+/* AZZERAMENTO */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* HEADER */
+header{
+  background-image: url(../assets/img7/background-header.png);
+  background-color: #0C325A;
+  background-size:60%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}
+header nav{
+  padding-top: 20px;
+}
+nav > #logo{
+  vertical-align: middle;
+  padding-right: 10px;
+}
+nav ul{
+  display: inline-block;
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  vertical-align: middle;
+  /* line-height: inherit; */
+}
+nav ul li a{
+ text-transform: uppercase;
+ text-decoration: none;
+ font-size: 10px;
+ color: white;
+ padding: 0 15px;
+
+}
+/* lista bottone flottata */
+#float-right{
+  float:right;
+  padding: 7px 0px;
+}
+/* BUTTON */
+#btn{
+  border: 1px solid white;
+  padding: 10px 26px;
+  margin: 0px -6px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.btn-green{
+  background-color: #67f458;
+  border-radius: 10px;
+  padding: 15px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.position{
+  padding-top: 120px;
+}
+h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: white;
+}
+.container > a{
+  font-size: 10px;
+}
+/* UTILITY DIMENSIONAMENTO */
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+#bg-grey{
+  background-color: grey;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+}
