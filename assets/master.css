@@ -18,22 +18,26 @@ header{
   height: 500px;
   width: 100%;
 }
+/* NAV BAR  */
 header nav{
   padding-top: 20px;
 }
+
 nav > #logo{
   vertical-align: middle;
   padding-right: 10px;
 }
+
 nav ul{
   display: inline-block;
   list-style: none;
 }
+
 nav ul li{
   display: inline-block;
   vertical-align: middle;
-  /* line-height: inherit; */
 }
+
 nav ul li a{
  text-transform: uppercase;
  text-decoration: none;
@@ -64,7 +68,7 @@ nav ul li a{
   text-transform: uppercase;
   color: white;
 }
-
+/* BUTTON  */
 .position{
   padding-top: 120px;
 }
@@ -83,26 +87,25 @@ h1{
   width: 80%;
   margin: 0 auto;
 }
-
+/* MAIN */
  #bg-grey{
   background-color: #D3D3D3;
   height: 100px;
- /* line-height: 40px; */
   text-align: center;
 }
+
 #font-size{
   font-size: 25px;
   padding-top: 20px;
   padding-bottom: 5px;
 }
+
 .font-color{
   color: grey;
 }
 /* DIVISIONE UNA RIGA E TRE COLONNE */
 .row{
   padding: 10px 15px;
-
-  /* border-bottom: 2px solid black: */
 }
 
 [class^="col-"]{
@@ -126,10 +129,7 @@ h1{
      height: 100px:
 
    }
-/* .col-33 img{
-  width: 200px;
-  height: 100px;
-} */
+
 hr{
   width: 20%;
   margin: 0 auto;
@@ -145,9 +145,7 @@ hr{
 .col-33 > p{
   margin: 20px 0px;
 }
-/* .profile{
 
-} */
 .computer{
   padding: 35px 60px;
 }
@@ -166,18 +164,19 @@ hr{
 .profile > .img-height{
   margin-top: 55px;
 }
-/* .profile > img{
-  height: 134px;
+/* DIVISIONE UNA RIGA E TRE COLONNE */
 
-}*/
+/*--- HR ---*/
 .linea-mezzaria{
   width: 100%;
 }
+/*--- HR ---*/
 
+/* DIVISIONE UNA RIGA E DUE COLONNE */
 .col-50{
   width: 50%;
-
 }
+
 #img-size{
   height: 400px;
   width: 100%;
@@ -185,46 +184,61 @@ hr{
 }
 
 .spaziatura{
-  /* padding-left: 50px;
-  padding-top: 20px; */
   padding: 35px 65px;
 }
+
 #text-size{
   font-size: 30px;
   margin-bottom: 30px;
 }
+
 .spaziatura > p{
   margin-bottom: 20px;
 }
+
 .text-size{
   font-size: 20px;
 }
- /*.computer >img{
-margin-top: 30px;
-}
-.doc >img{
+/* DIVISIONE UNA RIGA E DUE COLONNE */
 
-} */
- /* .row > h3 , p{
-  padding: 30px 0px;
-} */
-
+/*-- FOOTER --*/
 footer{
   background-color: #D3D3D3;
-  height: 100px;
-
+  height: 150px;
 }
- .footer{
-  /* line-height: 100px; */
 
+#h2-padding{
+  padding: 60px 0px;
 }
+
 .float-right{
   float: right;
-  padding: 7px 0px;
-  width: 50%;
-  /* display: inline-block; */
+}
+
+.posizionamento{
+  margin-top: -85px;
+}
+
+span{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+#decoration{
+  border-bottom: 1px solid rgba(128, 128, 128);
+  word-spacing: 5em;
+}
+
+#decoration:after{
+  content: "\25be";
+  padding-left: 40px;
+}
+
+.fixed{
+  padding-top: -40px;
+  position: fixed;
+  bottom: 0;
+  right: 210px;
+  z-index: 2;
 
 }
-/* #inline{
-  display: inline-block;
-} */
