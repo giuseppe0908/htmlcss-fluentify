@@ -51,22 +51,26 @@ nav ul li a{
   border-radius: 10px;
   margin-right: 10px;
 }
+
 .btn-green{
-  background-color: #67f458;
+  background-color: green;
   border-radius: 10px;
-  padding: 15px 10px;
+  padding: 10px 10px;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
+
 .position{
   padding-top: 120px;
 }
+
 h1{
   font-size: 50px;
   margin-bottom: 20px;
   color: white;
 }
+
 .container > a{
   font-size: 10px;
 }
@@ -75,9 +79,117 @@ h1{
   width: 80%;
   margin: 0 auto;
 }
-#bg-grey{
-  background-color: grey;
-  height: 120px;
-  line-height: 120px;
+
+ #bg-grey{
+  background-color: #D3D3D3;
+  height: 100px;
+ /* line-height: 40px; */
   text-align: center;
 }
+#font-size{
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+#font-color{
+  color: grey;
+}
+/* DIVISIONE UNA RIGA E TRE COLONNE */
+.row{
+  padding: 10px 15px;
+
+  /* border-bottom: 2px solid black: */
+}
+
+[class^="col-"]{
+    float: left;
+    /*  */
+  }
+  /* CLEARFIX */
+  .row:after{
+  content: "";
+  clear: both;
+  display: table;
+ }
+
+ .col-100{
+   width: 100%;
+   /* background-color: lightgrey; */
+   }
+   .col-33{
+     width: calc(100% /3);
+     /* border: 1px solid black; */
+     height: 100px:
+
+   }
+.col-33 img{
+  width: 200px;
+  height: 100px;
+}
+hr{
+  width: 20%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.col-33{
+  text-align: center;
+}
+.col-33 > h3{
+  color: green;
+  margin-bottom: 20px;
+}
+
+.col-33 > p{
+  margin-bottom: 20px;
+}
+/* .profile{
+
+} */
+.computer{
+  padding: 35px 60px;
+}
+.doc{
+  padding: 35px 30px;
+}
+.col-33 > img{
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+.profile > img{
+  height: 134px;
+  /* margin-top: 30px; */
+}
+#linea-mezzaria{
+  width: 100%;
+}
+
+.col-50{
+  width: 50%;
+  border: 2px solid black;
+}
+#img-size{
+  /* height: 200px; */
+  width: 100%;
+}
+
+.spaziatura{
+  padding-left: 50px;
+  padding-top: 20px;
+}
+#text-size{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.spaziatura > p{
+  margin-bottom: 20px;
+}
+ /*.computer >img{
+margin-top: 30px;
+}
+.doc >img{
+
+} */
+ /* .row > h3 , p{
+  padding: 30px 0px;
+} */
