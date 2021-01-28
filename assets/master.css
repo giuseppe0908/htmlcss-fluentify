@@ -61,7 +61,7 @@ nav ul li a{
 }
 
 .btn-green{
-  background-color: green;
+  background-color: #7CBB00;
   border-radius: 10px;
   padding: 10px 10px;
   text-decoration: none;
@@ -138,7 +138,7 @@ hr{
   text-align: center;
 }
 .col-33 > h3{
-  color: green;
+  color: #7CBB00;
   margin-bottom: 20px;
 }
 
@@ -224,12 +224,12 @@ span{
   padding: 0px 10px;
 }
 
-#decoration{
+.decoration{
   border-bottom: 1px solid rgba(128, 128, 128);
   word-spacing: 5em;
 }
 
-#decoration:after{
+.decoration:after{
   content: "\25be";
   padding-left: 40px;
 }
